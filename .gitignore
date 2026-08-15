@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific settings
+xcuserdata/
+*.xcuserstate
+
+# Xcode build products
+build/
+DerivedData/
+*.hmap
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Archives and exported app packages
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
